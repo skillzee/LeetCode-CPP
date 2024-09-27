@@ -7,7 +7,7 @@ public:
         }
 
         if(dp[curr][prev+1] != -1){
-            return dp[curr][prev];
+            return dp[curr][prev+1];
         }
         
         int take= 0;
@@ -22,7 +22,21 @@ public:
 
     int lengthOfLIS(vector<int>& nums) {
         int n = nums.size();
-        vector<vector<int>> dp(n, vector<int>(n+1, -1));
-        return f(nums, 0, -1, dp);
+        // vector<vector<int>> dp(n, vector<int>(n+1, -1));
+        // return f(nums, 0, -1, dp);
+
+
+        vector<int> dp(n, 1);
+        int maxi = -1;
+        for(int i = 0; i<n; i++){
+            for(int prev = 0; prev<i; prev++){
+                if(nums[prev]<nums[i]){
+                    dp[i] = max(dp[i], 1+dp[prev]);
+                }
+            }
+            maxi = max(maxi, dp[i]);
+        }
+
+        return maxi;
     }
 };
