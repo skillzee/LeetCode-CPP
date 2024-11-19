@@ -37,7 +37,7 @@ public:
         for(int i =0; i<n; i++){
             sum+=nums[i];
         }
-        if(sum % 2) return false;
+        if(sum % 2 != 0) return false;
         int target = sum/2;
 
         return f(n, target, nums);
