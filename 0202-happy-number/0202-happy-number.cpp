@@ -11,8 +11,7 @@ public:
                 return true;
             }else{
                 return false;
-            }
-            
+            } 
         }
         
         int sum = 0;
