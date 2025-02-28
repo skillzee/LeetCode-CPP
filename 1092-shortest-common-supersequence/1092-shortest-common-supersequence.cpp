@@ -4,6 +4,8 @@ public:
         int n = str1.size();
         int m = str2.size();
         vector<vector<int>> dp(n+1, vector<int>(m+1, 0));
+
+        // This DP table is sshowing the common elements between both indices at their respective lengths.
    
         for(int i = 1; i<=n; i++){
             for(int j =1; j<=m; j++){
@@ -14,6 +16,9 @@ public:
                 }
             }
         }
+
+       
+
         string ans = "";
         int i = n, j = m;
         while(i>0 and j>0){
