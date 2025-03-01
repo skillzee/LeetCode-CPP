@@ -1,49 +1,26 @@
 class Solution {
 public:
-    int solve(vector<int>& coins, int amount, vector<int>& dp) {
-        if (amount == 0) {
-            return 0;
-        }
-
-        if (dp[amount] != -1) {
-            return dp[amount];
-        }
-
-        int mini = INT_MAX;
-        for (int i = 0; i < coins.size(); i++) {
-            if (coins[i] <= amount) {
-                int ans = solve(coins, amount - coins[i], dp);
-                if (ans != INT_MAX) {
-                    mini = min(mini, 1 + ans);
-                }
-            }
-        }
-        return dp[amount] = mini;
-    }
-
-    int solveUsingTabulation(vector<int>& coins, int amount) {
-        vector<int> dp(amount + 1, INT_MAX);
-        dp[0] = 0;
-
-        for (int value = 1; value <= amount; value++) {
-            int mini = INT_MAX;
-            for (int i = 0; i < coins.size(); i++) {
-                if (coins[i] <= value) {
-                    int ans = dp[value - coins[i]];
-                    if (ans != INT_MAX) {
-                        mini = min(mini, 1 + ans);
-                    }
-                }
-            }
-            dp[value] = mini;
-        }
-        return dp[amount];
-    }
-
     int coinChange(vector<int>& coins, int amount) {
-        vector<int> dp(amount + 1, -1);
-        // int ans = solve(coins, amount, dp);
-        int ans = solveUsingTabulation(coins, amount);
-        return ans == INT_MAX ? -1 : ans;
+        int n = coins.size();
+
+        vector<vector<int>> dp(n+1, vector<int>(amount+1, INT_MAX-1));
+        for (int i = 0; i <= n; i++) dp[i][0] = 0;
+
+        for(int i = 1; i<n+1; i++){
+            for(int j = 1; j<amount+1; j++){
+                if(j>=coins[i-1]){
+                    dp[i][j] = min(1+dp[i][j-coins[i-1]], dp[i-1][j]);
+                }else{
+                    dp[i][j] = dp[i-1][j];
+                }
+            }
+        }
+
+        if(dp[n][amount] == INT_MAX-1){
+            return -1;
+        }
+
+        return dp[n][amount];
+
     }
 };
