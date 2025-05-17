@@ -6,15 +6,15 @@ public:
     int mid = 0;
     int right = n-1;
 
-    while(right>mid){
+    while(right>=mid){
         if(arr[mid] == 1){
             mid++;
         }
-        if(arr[mid] == 2){
+        else if(arr[mid] == 2){
             swap(arr[mid], arr[right]);
             right--;
         }
-        if(arr[mid] == 0){
+        else{
             swap(arr[mid], arr[left]);
             mid++; 
             left++;
