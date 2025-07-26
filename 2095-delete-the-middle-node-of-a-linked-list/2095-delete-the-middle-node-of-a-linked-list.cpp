@@ -16,7 +16,7 @@ public:
             return nullptr;
         }
         if (head->next == nullptr) {
-            delete head;
+            // delete head;
             return nullptr;
         }
 
