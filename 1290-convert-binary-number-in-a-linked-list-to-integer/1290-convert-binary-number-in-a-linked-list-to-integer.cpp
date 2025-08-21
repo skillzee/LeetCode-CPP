@@ -10,6 +10,19 @@
  */
 class Solution {
 public:
+    int solve(string bin){
+        int len = bin.length();
+        int num=0;
+        int p2 = 1;
+        for(int i = len-1; i>=0; i--){
+            if(bin[i] == '1'){
+                num = num+p2;
+            }
+            p2 = p2*2;
+        }
+        return num;
+    }
+
     int getDecimalValue(ListNode* head) {
         ListNode* temp = head;
         string bin = "";
@@ -19,7 +32,7 @@ public:
             temp = temp->next;
         }
 
-        int value = stoi(bin, nullptr, 2);
+        int value = solve(bin);
 
         return value;
     }
