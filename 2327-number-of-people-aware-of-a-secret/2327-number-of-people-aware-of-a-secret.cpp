@@ -28,7 +28,7 @@ public:
 
         for(int day = n-forget+1; day<=n; day++){
             if(day>0){
-                total = (total+ solve(day, delay, forget, dp)) & MOD;
+                total = (total+ solve(day, delay, forget, dp)) % MOD;
             }
         }
         
