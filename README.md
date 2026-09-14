@@ -6,6 +6,7 @@ All the solved questions on the leetcode
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0836-rectangle-overlap](https://github.com/skillzee/LeetCode-CPP/tree/main/0836-rectangle-overlap/) | Easy |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/skillzee/LeetCode-CPP/tree/main/3751-total-waviness-of-numbers-in-range-i/) | Medium |
 ## Dynamic Programming
 | Problem Name | Difficulty |
@@ -23,4 +24,8 @@ All the solved questions on the leetcode
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0835-image-overlap](https://github.com/skillzee/LeetCode-CPP/tree/main/0835-image-overlap/) | Medium |
+## Geometry
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0836-rectangle-overlap](https://github.com/skillzee/LeetCode-CPP/tree/main/0836-rectangle-overlap/) | Easy |
 <!---LeetCode Topics End-->
