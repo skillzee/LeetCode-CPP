@@ -22,6 +22,7 @@ All the solved questions on the leetcode
 | ------- | ------- |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/skillzee/LeetCode-CPP/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
 | [0835-image-overlap](https://github.com/skillzee/LeetCode-CPP/tree/main/0835-image-overlap/) | Medium |
+| [2016-maximum-difference-between-increasing-elements](https://github.com/skillzee/LeetCode-CPP/tree/main/2016-maximum-difference-between-increasing-elements/) | Easy |
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
