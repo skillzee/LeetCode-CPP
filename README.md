@@ -11,6 +11,7 @@ All the solved questions on the leetcode
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/skillzee/LeetCode-CPP/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/skillzee/LeetCode-CPP/tree/main/3751-total-waviness-of-numbers-in-range-i/) | Medium |
 ## Enumeration
 | Problem Name | Difficulty |
@@ -19,6 +20,7 @@ All the solved questions on the leetcode
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/skillzee/LeetCode-CPP/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
 | [0835-image-overlap](https://github.com/skillzee/LeetCode-CPP/tree/main/0835-image-overlap/) | Medium |
 ## Matrix
 | Problem Name | Difficulty |
