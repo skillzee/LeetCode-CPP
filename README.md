@@ -21,6 +21,7 @@ All the solved questions on the leetcode
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/skillzee/LeetCode-CPP/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
+| [0217-contains-duplicate](https://github.com/skillzee/LeetCode-CPP/tree/main/0217-contains-duplicate/) | Easy |
 | [0835-image-overlap](https://github.com/skillzee/LeetCode-CPP/tree/main/0835-image-overlap/) | Medium |
 | [1431-kids-with-the-greatest-number-of-candies](https://github.com/skillzee/LeetCode-CPP/tree/main/1431-kids-with-the-greatest-number-of-candies/) | Easy |
 | [1672-richest-customer-wealth](https://github.com/skillzee/LeetCode-CPP/tree/main/1672-richest-customer-wealth/) | Easy |
@@ -35,4 +36,12 @@ All the solved questions on the leetcode
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0836-rectangle-overlap](https://github.com/skillzee/LeetCode-CPP/tree/main/0836-rectangle-overlap/) | Easy |
+## Hash Table
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0217-contains-duplicate](https://github.com/skillzee/LeetCode-CPP/tree/main/0217-contains-duplicate/) | Easy |
+## Sorting
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0217-contains-duplicate](https://github.com/skillzee/LeetCode-CPP/tree/main/0217-contains-duplicate/) | Easy |
 <!---LeetCode Topics End-->
