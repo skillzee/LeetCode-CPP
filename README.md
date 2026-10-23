@@ -24,6 +24,7 @@ All the solved questions on the leetcode
 | [0835-image-overlap](https://github.com/skillzee/LeetCode-CPP/tree/main/0835-image-overlap/) | Medium |
 | [1431-kids-with-the-greatest-number-of-candies](https://github.com/skillzee/LeetCode-CPP/tree/main/1431-kids-with-the-greatest-number-of-candies/) | Easy |
 | [1672-richest-customer-wealth](https://github.com/skillzee/LeetCode-CPP/tree/main/1672-richest-customer-wealth/) | Easy |
+| [1800-maximum-ascending-subarray-sum](https://github.com/skillzee/LeetCode-CPP/tree/main/1800-maximum-ascending-subarray-sum/) | Easy |
 | [2016-maximum-difference-between-increasing-elements](https://github.com/skillzee/LeetCode-CPP/tree/main/2016-maximum-difference-between-increasing-elements/) | Easy |
 ## Matrix
 | Problem Name | Difficulty |
