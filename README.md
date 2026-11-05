@@ -20,6 +20,7 @@ All the solved questions on the leetcode
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0001-two-sum](https://github.com/skillzee/LeetCode-CPP/tree/main/0001-two-sum/) | Easy |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/skillzee/LeetCode-CPP/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
 | [0217-contains-duplicate](https://github.com/skillzee/LeetCode-CPP/tree/main/0217-contains-duplicate/) | Easy |
 | [0835-image-overlap](https://github.com/skillzee/LeetCode-CPP/tree/main/0835-image-overlap/) | Medium |
@@ -39,6 +40,7 @@ All the solved questions on the leetcode
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0001-two-sum](https://github.com/skillzee/LeetCode-CPP/tree/main/0001-two-sum/) | Easy |
 | [0217-contains-duplicate](https://github.com/skillzee/LeetCode-CPP/tree/main/0217-contains-duplicate/) | Easy |
 ## Sorting
 | Problem Name | Difficulty |
