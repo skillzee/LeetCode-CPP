@@ -28,6 +28,7 @@ All the solved questions on the leetcode
 | [1480-running-sum-of-1d-array](https://github.com/skillzee/LeetCode-CPP/tree/main/1480-running-sum-of-1d-array/) | Easy |
 | [1672-richest-customer-wealth](https://github.com/skillzee/LeetCode-CPP/tree/main/1672-richest-customer-wealth/) | Easy |
 | [1800-maximum-ascending-subarray-sum](https://github.com/skillzee/LeetCode-CPP/tree/main/1800-maximum-ascending-subarray-sum/) | Easy |
+| [1991-find-the-middle-index-in-array](https://github.com/skillzee/LeetCode-CPP/tree/main/1991-find-the-middle-index-in-array/) | Easy |
 | [2016-maximum-difference-between-increasing-elements](https://github.com/skillzee/LeetCode-CPP/tree/main/2016-maximum-difference-between-increasing-elements/) | Easy |
 ## Matrix
 | Problem Name | Difficulty |
@@ -51,4 +52,5 @@ All the solved questions on the leetcode
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1480-running-sum-of-1d-array](https://github.com/skillzee/LeetCode-CPP/tree/main/1480-running-sum-of-1d-array/) | Easy |
+| [1991-find-the-middle-index-in-array](https://github.com/skillzee/LeetCode-CPP/tree/main/1991-find-the-middle-index-in-array/) | Easy |
 <!---LeetCode Topics End-->
